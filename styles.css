@@ -1,13 +1,194 @@
 html {
-    background-color: #202020;
+    background-color: #1d1d1d;
+    user-select: none;
 }
 
+.rubik-shadow {
+  font-family: "Rubik Doodle Shadow", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+.rubik-regular {
+  font-family: "Rubik Mono One", monospace;
+  font-weight: 400;
+  font-style: normal;
+  color: crimson;
+}
+.lgr{
+  font-family: "Luckiest Guy", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+.navbutton:hover{
+    color: #ea1068 !important;
+}
+.red
+{
+    color: #ea1068 !important;
+}
+body {
+    margin: 0;
+}
+.bubble
+{
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    position: absolute;
+    left: 0;
+    background-color: #ea1068;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.invert
+{
+    filter: invert(1);
+}
+.play
+{
+    margin-left: 50px;
+}
+.card
+{
+    position: relative;
+    background-color: #ea1068;
+    border: solid white 4px;
+    display: flex;
+    color: white;
+    border-radius: 34px;
+    width: 150px;
+    height: 60px;
+    margin: 20px;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+}
+.whitebg{
+    background-color: white !important;
+    color: #ea1068 !important;
+}
+.card-container{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 100px;
+}
 p {
     color: crimson;
+}
+.white
+{
+    color: white !important;
+}
+.navbar
+{
+    top: 20px;
+    right: 0px;
+    padding: 10px 150px 10px 10px;
+    position: fixed;
+    display: flex;
+    height: 30px;
+    width: auto0;
+    border: solid 1px white;
+    background-color: white;
+    border-radius: 25px 0 0 25px;
+    float: right;
+    filter: drop-shadow(0px 0px 8px rgb(52, 52, 52, 0.5));
+    align-items: center;
+    flex-direction: row;
+}
+.navbutton
+{
+    user-select: none;
+    margin: 0 0 0 15px;
+    cursor: pointer;
+    color: rgb(71, 71, 71);
+}
+.buynow
+{
+    user-select: none;
+    padding: 5px;
+    cursor: pointer;
+    background-color: white;
+    color: white;
+    display: flex;
+    font-size: 20px;
+    position: absolute;
+    height: 40px;
+    width: 120px;
+    border-radius: 30px 0 0 30px;
+    background: rgb(194, 76, 124);
+    background: linear-gradient(0, rgba(194, 76, 124, 1) 0%, rgb(234 48 114) 100%);
+    border-bottom: solid 4px white;
+    border-top: solid 4px white;
+    border-left: solid 4px white;
+
+    right: 0px;
+    align-items: center;
+    justify-content: center;
+    filter: drop-shadow(0px 0px 5px rgb(52, 52, 52, 0.5));
+}
+.gradient
+{
+    background: linear-gradient(0, rgba(194, 76, 124, 1) 0%, rgb(234 48 114) 100%);
+}
+.pagetitle
+{
+    font-size: 50px;
+    text-align: center;
 }
 .titleone {
     color: blue;
 }
 .titletwo {
     color: black;
+}
+.codystyle {
+    width: 200px;
+}
+.titlepage{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.section1{
+    min-height:400px;
+    background-color: #2be6f8;
+}
+.section2{
+    height: 400px;
+    background-color: #20889a;
+}
+.section3{
+    height: 200px;
+    background-color: blue;
+}
+.titletext
+{
+    filter: drop-shadow(3px 3px 1px rgb(0, 0, 0, 1));
+    font-size: 150px;
+    color: #ea3072;
+    margin: 350px 0 50px 0;
+    background: linear-gradient(0, rgba(194, 76, 124, 1) 0%, rgb(234 48 114) 100%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+.subtitle
+{
+    color: white;
+    text-shadow: 2px 2px black;
+    margin: 0 0 50px 0;
+    font-size: 50px;
+}
+.footer{
+    display: flex;
+    height: 200px;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    background-color: rgb(52 12 57);
+}
+.space60{
+    margin: 0 30px;
 }
