@@ -48,9 +48,11 @@ body {
 .play
 {
     margin-left: 50px;
+    color: rgba(194, 76, 124, 1);
 }
 .card
 {
+    cursor: pointer;
     position: relative;
     background-color: #ea1068;
     border: solid white 4px;
@@ -63,6 +65,7 @@ body {
     justify-content: center;
     align-items: center;
     font-size: 25px;
+    filter: drop-shadow(0px 0px 4px rgb(52, 52, 52, 0.5));
 }
 .whitebg{
     background-color: white !important;
@@ -82,6 +85,7 @@ p {
 }
 .navbar
 {
+    z-index: 1;
     top: 20px;
     right: 0px;
     padding: 10px 150px 10px 10px;
@@ -93,7 +97,7 @@ p {
     background-color: white;
     border-radius: 25px 0 0 25px;
     float: right;
-    filter: drop-shadow(0px 0px 8px rgb(52, 52, 52, 0.5));
+    filter: drop-shadow(0px 0px 4px rgb(52, 52, 52, 0.5));
     align-items: center;
     flex-direction: row;
 }
@@ -103,6 +107,10 @@ p {
     margin: 0 0 0 15px;
     cursor: pointer;
     color: rgb(71, 71, 71);
+}
+.buynow:hover
+{
+    font-size: 30px;
 }
 .buynow
 {
@@ -122,7 +130,6 @@ p {
     border-bottom: solid 4px white;
     border-top: solid 4px white;
     border-left: solid 4px white;
-
     right: 0px;
     align-items: center;
     justify-content: center;
@@ -153,22 +160,32 @@ p {
     justify-content: center;
 }
 .section1{
+    padding-top: 25px;
     min-height:400px;
     background-color: #2be6f8;
 }
 .section2{
+    padding-top: 25px;
     height: 400px;
     background-color: #20889a;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
 }
 .section3{
-    height: 200px;
-    background-color: blue;
+    padding-top: 25px;
+    height: 400px;
+    background-color: #2be6f8;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;    
 }
 .titletext
 {
     filter: drop-shadow(3px 3px 1px rgb(0, 0, 0, 1));
     font-size: 150px;
     color: #ea3072;
+    text-align: center;
     margin: 350px 0 50px 0;
     background: linear-gradient(0, rgba(194, 76, 124, 1) 0%, rgb(234 48 114) 100%);
     -webkit-text-fill-color: transparent;
