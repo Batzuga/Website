@@ -24,7 +24,7 @@ html {
 }
 .red
 {
-    color: #ea1068 !important;
+    color: rgba(194, 76, 124, 1) !important;
 }
 body {
     margin: 0;
