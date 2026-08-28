@@ -5,6 +5,10 @@ html {
 div {
     position: relative;
 }
+@font-face{
+    font-family: "Luckiest Guy";
+    src: url("LuckiestGuy-Regular.ttf");
+}
 .lgr{
   font-family: "Luckiest Guy", cursive;
   font-weight: 400;
